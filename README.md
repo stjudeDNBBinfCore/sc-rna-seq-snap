@@ -2,13 +2,13 @@
   <img src="figures/img/ScRNASeqSnap_logo.png" alt="ScRNASeqSnap repository logo" width="660px" />
 </p>
 <p align="center">
-  <a href="https://github.com/stjudeDNBBinfCore/single-cell-rna-analysis/blob/main/LICENSE"><img src="https://img.shields.io/github/license/kids-first/kf-template-repo.svg?style=for-the-badge"></a>
+  <a href="https://github.com/stjudeDNBBinfCore/sc-rna-seq-snap/blob/main/LICENSE"></a>
 </p>
 
 
 # Single cell RNA Seq Snap workflow (ScRNASeqSnap)
 
-This repository contains tools and workflows for analyzing single cell RNA (sc/snRNA) data from 10X sequencing technology. The `sc-rna-seq-snap` repository is an initiative of the [Bioinformatics Core at the Department of Developmental Neurobiology at the St. Jude Children's Research Hospital](https://www.stjude.org/research/departments/developmental-neurobiology/shared-resources/bioinformatic-core.html).
+This repository contains tools and workflows for analyzing single cell and single nuclei RNA (sc/snRNA) data from 10X sequencing technology. The `sc-rna-seq-snap` repository is an initiative of the [Bioinformatics Core at the Department of Developmental Neurobiology at the St. Jude Children's Research Hospital](https://www.stjude.org/research/departments/developmental-neurobiology/shared-resources/bioinformatic-core.html).
 
 
 ⚠️ 🚧 The repo is currently under development and code review process. 🚧 ⚠️ 
@@ -23,18 +23,17 @@ This repository contains tools and pipelines for the repository noted above.
 
 1. Clone the repository
 ```
-git clone https://github.com/stjudeDNBBinfCore/single-cell-rna-analysis.git
+git clone https://github.com/stjudeDNBBinfCore/sc-rna-seq-snap.git
 ```
 
 2. Navigate to an analysis module and run the shell script:
 ```
-cd $(dirname "${BASH_SOURCE[0]}")/analyses/<module_of_interest>
+cd /home/rstudio/sc-rna-seq-snap/analyses/<module_of_interest>
 ```
 
 ### Below is the main directory structure listing the analyses and data files used in this repository
 
 ```
-├── code-of-conduct.md
 ├── analyses
 |  ├── ...
 |  ├── ...
@@ -57,7 +56,7 @@ cd $(dirname "${BASH_SOURCE[0]}")/analyses/<module_of_interest>
 
 ## Contact
 
-Contributions, issues, and feature requests are welcome! Please feel free to check [issues](https://github.com/stjudeDNBBinfCore/single-cell-rna-analysis/issues).
+Contributions, issues, and feature requests are welcome! Please feel free to check [issues](https://github.com/stjudeDNBBinfCore/sc-rna-seq-snap/issues).
 
 ---
 
