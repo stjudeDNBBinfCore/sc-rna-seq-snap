@@ -20,37 +20,37 @@
 Closes #(issue).
 
 
-# Directions for reviewers 
+## Directions for reviewers 
 Tell potential reviewers what kind of feedback you are soliciting.
 
-## Which areas should receive a particularly close look?
+### Which areas should receive a particularly close look?
 
 
 
-## Is there anything that you want to discuss further?
+### Is there anything that you want to discuss further?
 
 
 
 
-# Results
+## Results
 
-## What was your approach?
-
-
-
-## What types of results are included (e.g., table, figure)?
+### What was your approach?
 
 
 
-## What is your summary of the results?
+### What types of results are included (e.g., table, figure)?
 
 
 
-# Reproducibility Checklist
+### What is your summary of the results?
+
+
+
+## Reproducibility Checklist
 
 - [ ] The dependencies required to run the code in this pull request have been added to the project Dockerfile.
 
-#### Documentation Checklist
+## Documentation Checklist
 
 
 - [ ] This analysis module has a `README` and it is up to date.
