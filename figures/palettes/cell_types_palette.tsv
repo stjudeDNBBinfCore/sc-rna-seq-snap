@@ -1,0 +1,15 @@
+cell_type_names	hex_codes 
+aNSCs	#DD6C84 
+Astrocytes	#EB6046 
+Endothelial cells	#79DAAC 
+Ependymal	#7695CC 
+Epithelial cells	#4199B5 
+Fibroblasts	#D1BE8B 
+Microglia           	#C753D4 
+Neurons	#BDC9AD 
+Neurons activated	#BB7E7D 
+NPCs	#D29269 
+Oligodendrocytes	#9E0142 
+OPCs	#9D51DD 
+qNSCs	#ABA398 
+na_color	#7F7F7F
