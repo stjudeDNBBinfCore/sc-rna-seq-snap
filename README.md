@@ -2,7 +2,7 @@
   <img src="figures/img/ScRNASeqSnap_logo.png" alt="ScRNASeqSnap repository logo" width="660px" />
 </p>
 <p align="center">
-  <a href="https://github.com/stjudeDNBBinfCore/sc-rna-seq-snap/blob/main/LICENSE"></a>
+  <a href="https://github.com/stjudeDNBBinfCore/sc-rna-seq-snap/blob/main/LICENSE"><img src="https://img.shields.io/github/license/stjudeDNBBinfCore/figures/img/ScRNASeqSnap_logo.png?style=for-the-badge"></a>
 </p>
 
 
