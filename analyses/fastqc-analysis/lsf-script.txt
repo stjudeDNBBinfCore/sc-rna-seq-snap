@@ -1,0 +1,7 @@
+#BSUB -P project
+#BSUB -J fastqc-analysis
+#BSUB -oo job.out -eo job.err
+#BSUB -n 2
+#BSUB -R "rusage[mem=4GB] span[hosts=1]"
+
+bash run-fastqc-analysis.sh
