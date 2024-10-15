@@ -14,6 +14,15 @@ Parameters according to the project and analysis strategy will need to be specif
 - `run-fastqc-analysis.sh`: define path to input data with `*R2*.fastq.gz` files.
 
 
+### Run module by using lsf on HPC
+
+There is also the option to run a lsf job on the HPC cluster by using the following command on an HPC node:
+
+```
+bsub < lsf_script.txt
+```
+
+
 ## Folder content
 This folder contains a script tasked to run FastQC quality control tool for all libraries across the project.
 Each libary directory contains the following files:
