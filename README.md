@@ -25,7 +25,7 @@ This repository contains tools and pipelines for the repository noted above.
 
 1. Clone the repository
 ```
-git clone https://github.com/stjudeDNBBinfCore/sc-rna-seq-snap.git
+git clone https://github.com/stjude-dnb-binfcore/sc-rna-seq-snap.git
 ```
 
 2. Navigate to an analysis module and run the shell script:
@@ -37,23 +37,12 @@ cd /home/rstudio/sc-rna-seq-snap/analyses/<module_of_interest>
 
 ```
 ├── analyses
-|  ├── ...
-|  ├── ...
-|  └── ...
+|  └── fastqc-analysis
 ├── figures
-|   ├── img
-|        ├── DNB_BINF_Core_logo.png
-|        └── ScRNASeqSnap_logo.png
-|   ├── palettes
-|       ├── binary_color_palette.tsv
-|       └── qc_color_palette.tsv
-|   ├── README.md
-|   ├── scripts
-|       ├── create_color_palette_project.R
-|       └── theme_plot.R
-├── gitignore.txt
 ├── LICENSE
-└── README.md
+├── project_parameters.Config.yaml
+├── README.md
+└── SECURITY.md
 ```
 
 ## Contact
