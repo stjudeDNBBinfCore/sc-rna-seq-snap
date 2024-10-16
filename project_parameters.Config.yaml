@@ -1,0 +1,38 @@
+# the following parameters are the same across the module #
+root_dir: "/research/dept/dnb/core_operations/Bioinformatics/achroni/GitHub/sc-rna-seq-snap" # path to main dir of the project
+data_dir: "/research/dept/dnb/core_operations/Bioinformatics/zakhagrp/snRNASeq_of_DS_in_Df1_mice/2_cellranger_count/ForcedCells8000Parameters" # path to data dir of the project with CellRanger output results
+metadata_dir: "/research/dept/dnb/core_operations/Bioinformatics/zakhagrp/snRNASeq_of_DS_in_Df1_mice" # path to metadata dir of the project
+PROJECT_NAME: "snRNASeq_of_DS_in_Df1_mice"
+PI_NAME: "Stanislav Zakharenko"
+TASK_ID: "Cellranger-ForcedCells8000Parameters-TEST"
+PROJECT_LEAD_NAME: "NA"
+DEPARTMENT: "Developmental Neurobiology"
+LEAD_ANALYSTS: "Antonia Chroni, PhD"
+GROUP_LEAD: "Cody A. Ramirez, PhD"
+CONTACT_EMAIL: "achroni@stjude.org"
+PIPELINE: "Standard sc-/sn-RNA-Seq Analysis in 10X Genomics data"
+START_DATE: "10/15/2024"
+COMPLETION_DATE: "ONGOING"
+
+
+# the following parameters are specific for: 
+# (1) ./upstream-analysis/01B_run_seurat_qc_multiple_samples.R that is to run ./upstream-analysis/01A_run_seurat_qc.Rmd, and
+# (2) ./upstream-analysis/04_run_filter_object.Rmd 
+grouping: "orig.ident" # define grouping to use 
+genome_name: "mm10" # define genome reference
+Regress_Cell_Cycle_value: "NO" # Indicates whether or not to regress for cell cycle and, if so, which method to use and scale data; acceptable values: "YES", "NO" and "DIFF"
+assay: "RNA" # define assay
+min_genes: 300 # define minimum number of genes for filtering
+min_count: 500 # define minimum number of UMIs for filtering
+mtDNA_pct_default: 10 # define minimum percentage of mtDNA for filtering
+normalize_method: "log_norm" # define method for normalization of counts
+num_pcs: 30 # define number of principal components
+nfeatures_value: 3000 # define number of variable features
+prefix: "lognorm" # create label based on the normalization method used
+use_miQC: "NO" # define use of miQC R package or not; see `README.md` file for more information; acceptable values: "YES" and "NO"
+use_only_step1: "YES" # define use of both or only first step for filtering low quality cells; see `README.md` file for more information; acceptable values: "YES" and "NO"
+condition_value: "Genotype" # define main condition of the project; this can be used for visualization purposes on the UMAPs; value to be extracted from column name in `project_metadata.tsv` file
+
+# the following parameters are specific for: ./upstream-analysis/02_run_SoupX.Rmd #
+soup_fraction_value_default: 0.05 # set rho default value to use if estimated rho is > 20%
+
