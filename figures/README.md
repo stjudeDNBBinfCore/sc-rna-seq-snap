@@ -21,12 +21,17 @@ The structure of this folder is as follows:
 
 ```
 ├── img
-|   └── DNB_BINF_Core_logo.png
+|   ├── DNB_BINF_Core_logo.png
+|   └── ScRNASeqSnap_logo.png
 ├── palettes
-|   ├── binary_color_palette.tsv
+|   ├── binary_color_palette.tsv
+|   ├── cell_types_palette.tsv
+|   ├── divergent_color_palette.tsv
+|   ├── gradient_color_palette.tsv
+|   ├── project_palette.tsv
 |   └── qc_color_palette.tsv
 ├── README.md
 ├── scripts
-|   ├── create_color_palette_project.R
+|   ├── create_color_palette_project.R
 |___└── theme_plot.R
 ```
