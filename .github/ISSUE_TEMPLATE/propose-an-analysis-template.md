@@ -15,9 +15,7 @@ assignees: ''
 
 
 
-
 ## What methods and tools will be used to accomplish the scientific goals?
-
 
 
 
@@ -25,18 +23,19 @@ assignees: ''
 
 
 
-
 ## What input data are required for this analysis?
 
 
 
-
-### How long do you expect is needed to complete the analysis? Will it be a multi-step analysis?
-
+## Is this a multi-step analysis?
 
 
 
-### Who will complete the analysis (please add a GitHub handle here if relevant)?
+## How long do you expect is needed to complete the analysis? 
+
+
+
+## Who will complete the analysis (please add a GitHub handle here if relevant)?
 
 
 
