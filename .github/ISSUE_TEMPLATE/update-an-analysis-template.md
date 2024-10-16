@@ -21,8 +21,7 @@ assignees: ''
 
 
 
-## What input data should be used? Which project/data were used in the version being updated?
-
+## What input data and from which project should be used? 
 
 
 
