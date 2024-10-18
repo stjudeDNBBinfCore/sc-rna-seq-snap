@@ -20,7 +20,7 @@ bash run-fastqc-analysis.sh
 There is also the option to run a lsf job on the HPC cluster by using the following command on an HPC node:
 
 ```
-bsub < lsf_script.txt
+bsub < lsf-script.txt
 ```
 
 
@@ -41,7 +41,7 @@ For more information, please:
 The structure of this folder is as follows:
 
 ```
-├── lsf_script.txt
+├── lsf-script.txt
 ├── README.md
 ├── results
 |   ├── 01-fastqc-reports
