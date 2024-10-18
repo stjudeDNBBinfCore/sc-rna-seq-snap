@@ -1,5 +1,5 @@
-# Create color palettes for single-cell-RNA-analysis
-# Antonia Chroni <achroni@stjude.org> for DNB Bioinformatics Core Analysis Team
+# Create color palettes for `sc-rna-seq-snap` repo
+# Antonia Chroni <antonia.chroni@stjude.org> for DNB Bioinformatics Core Analysis Team
 #
 # Usage:
 # Anywhere a plot is being made, source these TSV file and use the color palette for
@@ -9,7 +9,7 @@
 `%>%` <- dplyr::`%>%`
 
 # Establish base dir
-root_dir = file.path("/research/dept/dnb/core_operations/Bioinformatics/achroni/GitHub/single-cell-RNA-analysis")
+root_dir = file.path("./GitHub/sc-rna-seq-snap")
 
 # Output to palette directory
 output_dir <-

@@ -1,15 +1,15 @@
 # the following parameters are the same across the module #
-root_dir: "/research/dept/dnb/core_operations/Bioinformatics/achroni/GitHub/sc-rna-seq-snap" # path to main dir of the project
-data_dir: "/research/dept/dnb/core_operations/Bioinformatics/zakhagrp/snRNASeq_of_DS_in_Df1_mice/2_cellranger_count/ForcedCells8000Parameters" # path to data dir of the project with CellRanger output results
-metadata_dir: "/research/dept/dnb/core_operations/Bioinformatics/zakhagrp/snRNASeq_of_DS_in_Df1_mice" # path to metadata dir of the project
-PROJECT_NAME: "snRNASeq_of_DS_in_Df1_mice"
+root_dir: "./GitHub/sc-rna-seq-snap" # path to the main dir of the project where GitHub repo lives
+data_dir: "./GitHub/sc-rna-seq-snap/analyses/cellranger-analysis/results/02_cellranger_count/ForcedCells8000Parameters" # path to data dir of the project with CellRanger output results
+metadata_dir: "./mouse-test-dataset" # path to metadata dir of the project
+PROJECT_NAME: "mouse-test-dataset"
 PI_NAME: "Stanislav Zakharenko"
-TASK_ID: "Cellranger-ForcedCells8000Parameters-TEST"
+TASK_ID: "NA"
 PROJECT_LEAD_NAME: "NA"
 DEPARTMENT: "Developmental Neurobiology"
 LEAD_ANALYSTS: "Antonia Chroni, PhD"
 GROUP_LEAD: "Cody A. Ramirez, PhD"
-CONTACT_EMAIL: "achroni@stjude.org"
+CONTACT_EMAIL: "antonia.chroni@stjude.org"
 PIPELINE: "Standard sc-/sn-RNA-Seq Analysis in 10X Genomics data"
 START_DATE: "10/15/2024"
 COMPLETION_DATE: "ONGOING"
