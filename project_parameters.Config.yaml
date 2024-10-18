@@ -1,6 +1,6 @@
 # the following parameters are the same across the module #
 root_dir: "./GitHub/sc-rna-seq-snap" # path to the main dir of the project where GitHub repo lives
-data_dir: "./ForcedCells8000Parameters" # path to data dir of the project with CellRanger output results
+data_dir: "./GitHub/sc-rna-seq-snap/analyses/cellranger-analysis/results/02_cellranger_count/ForcedCells8000Parameters" # path to data dir of the project with CellRanger output results
 metadata_dir: "./mouse-test-dataset" # path to metadata dir of the project
 PROJECT_NAME: "mouse-test-dataset"
 PI_NAME: "Stanislav Zakharenko"
